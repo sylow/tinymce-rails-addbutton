@@ -13,8 +13,8 @@
           buttons: [{
               text: 'Add',
               onclick: function(e){
-                title_input = $( "label:contains('Title')" ).next().val()
-                url_input = $( "label:contains('Url')" ).next().val()
+                title_input = $( "label.mce-widget:contains('Title')" ).next().val()
+                url_input = $( "label.mce-widget:contains('Url')" ).next().val()
                 tinymce_error = $(".addbutton-error")
 
                 if (title_input == ""){
