@@ -23,7 +23,7 @@
                   tinymce_error.text("You must choose a url other than the example 'http://...' ")
                 } else {
                     tinymce_error.text(" ")
-                    editor.insertContent('<a target="_blank" href="'+ url_input +'" class="button-link">'+ title_input +'</a>');
+                    editor.insertContent('<a target="_blank" href="'+ url_input +'" class="button-link alt">'+ title_input +'</a>');
                     editor.windowManager.close();
                 }
               },
